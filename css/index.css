@@ -1,0 +1,86 @@
+/* ALL PAGE */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 10rem; /* Footer height */
+}
+
+/* HEADER SECTION */
+.navigation {
+    background-color: #1c2120;
+    color: white;
+    display: flex;
+    align-items: center; 
+}
+.logo {
+    float: left;
+    height: 75px;
+    width: 211px;
+}
+.navigation ul {
+    list-style-type: none;
+}
+.navigation li {
+    display: inline-block;
+    padding: 14px 14px;    
+}
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: #E3B04B;
+}
+/* HERO IMG SECTION */
+.heroImg {
+    height: 600px;
+    padding: 225px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+.mePic {
+    height: 250px;
+    width: auto;
+    float: right;
+    padding: 10px;
+}
+
+/* FOOTER SECTION */
+footer {
+    background-color: #1c2120;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10rem; /* Footer height */
+}
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+footer li {
+    display: inline-block;
+    padding: 30px 50px;
+}
+footer a {
+    text-decoration: none;
+}
+.phone {
+    padding: 30px;
+}
+.email {
+    padding: 30px;
+}
+.linkedin {
+    padding: 30px;
+}
+
